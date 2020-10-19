@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap');
+ body {
+   background-color:  rgba(255, 254, 250, 0.123);
+ }
+h1 {
+  font-family: Roboto;
+  font-size: 5vh;
+}
+
+h2 {
+  font-family: Audiowide;
+}
+h3 {
+  font-family: Audiowide;
+  font-size: 15vw;
+  text-align: center;
+  padding-right: 50%;
+}
+p {
+  font-family: Roboto;
+  font-size: 2vh;
+}
+
+.lead {
+  font-size: 2vh;
+}
+.box1 {
+  filter: drop-shadow(1px 1px 10px #00000096);
+  color: aliceblue;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/spacexbgnew.png');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead2{
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/falcon1c.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead3 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/nasaspacex.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead4 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/merlintestt.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead5 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/falcon1fail.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead6 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/falcon1liftoff.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead7 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/falcon9pret.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead8 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/iss.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead9 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/grasshopper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead10 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/crewdgif.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead11 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/crewdpara.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead12 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/falcon1explode.gif');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead13 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/falcon9texas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead14 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/BFRpix.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead15 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/starship-sn5-150m-hop.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.masthead16 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/crewdcrew2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    mix-blend-mode: normal;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgba(0, 0, 0, 0); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffffad;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #3492c8;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 5px;}
+  }
+
+ 

@@ -1,0 +1,44 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: rgb(221, 210, 210);
+  color: black;
+}
+
+.overlay {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: -moz-hidden-unscrollable;
+}
+.overlay button {
+  background: rgb(255, 2, 2) none repeat fixed 0 0;
+  color: aliceblue;
+  font-size: 4vh;
+  margin: 7rem 3rem 0;
+  mix-blend-mode: multiply;
+  padding: 5px 15px;
+  text-align: center;
+  border-radius: 25px;
+  border-color: rgb(98, 98, 98);
+}
